@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "UrbanThreads"
+version = "1.0.0"
+id = "artifacts/urbanthreads"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24195
+
+[services.development]
+run = "pnpm --filter @workspace/urbanthreads run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/urbanthreads", "run", "build" ]
+publicDir = "artifacts/urbanthreads/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24195"
+BASE_PATH = "/"

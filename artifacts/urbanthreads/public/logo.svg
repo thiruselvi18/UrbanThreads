@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4521A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8873A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="10" width="44" height="44" rx="8" fill="url(#grad)"/>
+  <text x="22" y="37" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">U</text>
+  <text x="56" y="32" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#D4521A" letter-spacing="1">Urban</text>
+  <text x="148" y="32" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#1A1A1A" letter-spacing="1">Threads</text>
+  <text x="56" y="48" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#888" letter-spacing="3">PLUS SIZE FASHION</text>
+</svg>
